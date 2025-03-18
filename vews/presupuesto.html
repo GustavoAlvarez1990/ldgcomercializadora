@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- Se crean etiquetas de configuracion, enlaces y mejora de posicionamiento de la web -->
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="Comercializadora y distribuidora de alimentos y materia prima para restaurantes | panaderias | pastelerias | comida rapida y emprendimientos  gastronomicos | Abastecemos el sector HORECA.">
+    <meta name="keywords" content="Comercializadora de alimentos, materia prima, HORECA, mayorista de alimentos, distribuidora de alimentos,  proveedor  alimentos restaurantes, distribuidora panaderias, distribuidora pastelerias">
+    <meta name="robots" content="index, follow, all">
+    <title>LDG Comercializadora | Mayorista de alimentos </title>
+    <link rel="icon" href="./favicon.png?=v2" type="image/png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/e083ec02bf.js" 
+    crossorigin="anonymous"></script> 
+</head>
+
+<body >
+    <header class="cabecera">
+        <div class="logo">
+            <a id="arriba"></a>
+            <div class="circle">
+                <h1>LDG</h1>
+                <h2>Comercializadora</h2>
+            </div>
+        </div>
+        <nav class="nav"><!--Barra de Navegacion-->
+            <ul class="lista">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../vews/productos.html">PRODUCTOS</a></li>
+                <li><a class="presupuesto" href="#">PRESUPUESTO</a></li>
+                <li><a href="../vews/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <div class="form-content">
+            
+            <div class="h1-container">
+                <h1>Pide tu presupuesto</h1>
+            </div>
+        
+            <form method="post" action="#" enctype="multipart/form-data" class="form">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" autofocus required>
+                </p>
+                <p>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" required >
+                </p>
+                <p>
+                    <label for="email">E mail:</label>
+                    <input type="email" name="email" id="email"  required>
+                </p>
+                <p>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" name="telefono" id="telefono"  maxlength="9" required>
+                </p>
+                <p class="block">
+                    <label for="comentarios">Solicite información:</label>
+                    <textarea id="comentarios" rows="3" cols="25" ></textarea>
+                </p>
+                <p class="block">
+                    <label class="condition" for="condicion">Acepto las condiciones</label>
+                    <input class="condition" type="checkbox" name="condicion" id="condicion" value="si" required>
+                </p>
+                <p class="block">  
+                    <label for="enviar"></label>
+                    <input  class="button" type="submit" value="Enviar" id="enviar">
+                </p>
+            </form>
+        
+        </div>
+    </main>
+   
+    <footer>
+        <div class="foot">
+            <div class="redes">
+                <a href="https://www.instagram.com/comercializadoraldg/" target="_blank" title="¡Visitanos en Imstagram!">
+                    <i class="fa-brands fa-instagram"></i>
+                </a> 
+                <a href="#"> 
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="direccion">
+            <p>
+              Calle Potrero Del Medio, Qta. El Carmen, Urb. Clup De campo, Carrizal, Miranda, Zona 
+        Postal 1203.
+            </p>
+            </div>
+            <div class="copyright">
+            <p >
+                &copy; Copyright 2023 <span><a href="#arriba"> LDG comercializadora</a></span> -  Venezuela
+            </p>
+            </div>
+        </div>
+    </footer>
+</body>    
